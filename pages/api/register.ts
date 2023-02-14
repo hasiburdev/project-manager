@@ -26,7 +26,7 @@ const register = async (req: NextApiRequest, res: NextApiResponse) => {
     );
 
     res.status(201);
-    res.end();
+    res.json({});
   }
 };
 

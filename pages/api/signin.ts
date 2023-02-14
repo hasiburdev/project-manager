@@ -24,10 +24,10 @@ const signin = async (req: NextApiRequest, res: NextApiResponse) => {
       );
 
       res.status(201);
-      res.end();
+      res.json({});
     } else {
       res.status(400);
-      res.end();
+      res.json({});
     }
   }
 };
